@@ -10,6 +10,9 @@
 }
 body{
     padding-top: 82px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 header{
     width: 100%;
@@ -22,6 +25,11 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 0 48px;
+    background-color: white;
+    z-index: 4;
+}
+section{
+    display: flex;
 }
 nav{
     display: flex;
@@ -56,4 +64,117 @@ nav ul li{
     justify-content: center;
     color: white;
     font-size: 13px;
+}
+#section_1{
+    height: 604px;
+    background-image: url('/imagi/section_1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#section_1-flex_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    width: 248px;
+    box-sizing: content-box;
+    padding-right: 240px;
+}
+#section_1-flex_container button{
+    height: 60px;
+    background-color: #D37657;
+    color: white;
+    margin-top: 57px;
+}
+#section_2{
+    height: 212px;
+    background-color: #F5F1E9;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+#section_2 h2{
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+}
+#images{
+    height: 29px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 113px;
+}
+#section_3{
+    height: 340px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+}
+#section_3-left_p{
+    width: 400px;
+    font-size: 41px;
+    font-weight: 700;
+    text-align: center;
+}
+#section_3-right_p{
+    width: 650px;
+}
+#section_4{
+    height: 939px;
+    background-color: #FBF6EA;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 45px;
+}
+#section_4-flex_container{
+    height: 171px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#section_4-flex_container p{
+    font-size: 35px;
+}
+#section_4-flex_container ul{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+#section_4-flex_container ul button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+#section_4-pan{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#section_4-pan span{
+    position: absolute;
+    color: #6E6259;
+    text-align: center;
+    font-size: 12px;
+}
+.section_4-pan-rectangulum{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: #E09D81;
+    z-index: 1;
+}
+#section_5{
+    height: 859px;
 }
