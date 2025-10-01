@@ -13,6 +13,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    background-color: #FCFAF6;
 }
 header{
     width: 100%;
@@ -112,11 +113,10 @@ nav ul li{
     gap: 113px;
 }
 #section_3{
-    height: 340px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 120px;
+    padding: 120px;
 }
 #section_3-left_p{
     width: 400px;
@@ -177,4 +177,63 @@ nav ul li{
 }
 #section_5{
     height: 859px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+#section_5 h2{
+    font-size: 33px;
+    line-height: 55.2px;
+    text-align: center;
+    font-weight: 700;
+}
+#section_5 p{
+    font-size: 18px;
+    line-height: 28.98px;
+}
+#section_5-flex_container{
+    height: 483px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}
+.product{
+    width: 286px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section_5-flex_container-picture{
+    height: 229px;
+    border-radius: 50%;
+    background-color: #F7F3EB;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.section_5-flex_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.section_5-flex_container_for_color{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.section_5-flex_container_for_color button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+#section_5-flex_container-flex_container{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
